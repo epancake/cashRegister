@@ -1,6 +1,7 @@
 var stdin = "15.94 100.00"
-// Change the numbers in the stdin variable, and the cash denominations for change will be printed out. The first number in the stdin variable is the cost, and the second number is the customer's cash amount.
-// This example returns 'FIFTY, TWENTY, TEN, 4 ONES, NICKEL, PENNY'
+// Change the numbers in the stdin variable, and the cash denominations for that need to be given to the customer will be printed out. 
+// The first number in the stdin variable is the cost, and the second number is the customer's cash amount.
+// This example "15.94 100.00" returns a string: 'FIFTY, TWENTY, TEN, 4 ONES, NICKEL, PENNY'
 
 const cashRegister = (input) => {
   let finalString = ""
