@@ -4,11 +4,11 @@ var stdin = "15.94 100.00"
 // This example "15.94 100.00" returns a string: 'FIFTY, TWENTY, TEN, 4 ONES, NICKEL, PENNY'
 
 const cashRegister = (input) => {
-  let finalString = ""
-  let newArray = input.split(" ")
-  let cost = newArray[0]
-  let payment = newArray[1]
-  let remainder = (payment - cost).toFixed(2)
+    let finalString = ""
+    const newArray = input.split(" ")
+    const cost = newArray[0]
+    const payment = newArray[1]
+    let remainder = (payment - cost).toFixed(2))
 
   if (remainder < 0) {
     finalString += "ERROR  "
